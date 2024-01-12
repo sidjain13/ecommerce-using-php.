@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#515656;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+.box{
+    background-color: white;
+    /* border: 2px solid yellow; */
+    width: 250px;
+    margin: 15vh auto;
+    border-radius: 8px;
+}
+.box h1 {
+    text-align: center;
+    padding: 8px;
+}
+
+.pass {
+    /* padding: 15px; */
+    margin: 20px 0 0 30px;
+}
+.box input{
+    margin: 4px 0 0 30px;
+    padding: 3px;
+    border-radius: 5px;
+}
+p.forgot{
+    margin: 5px 0 0 108px;
+    cursor: pointer;
+    /* margin-top: 0; */
+    /* font-size: 12px; */
+}
+p.login{
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 23px 33px;
+    padding: 2px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+.using{
+    margin: 34px 0 0 85px;
+}
+.icon{
+    margin: 0 90px;
+    /* cursor: pointer; */
+}
+.icon img{
+    height: 18px;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+@media screen and (max-width:1000px) {
+    body{
+        /* background-color: red; */
+    }
+    header nav{
+        height: 19vh;
+    }
+    header nav ul{
+        flex-direction: column;
+    }
+    header nav ul div{
+        padding: 5px;
+        margin-left: 2px;
+        font-size: 15px;
+      
+    }
+    .img1{
+        width: 100%;
+        margin-top: 13vh;
+        
+    }
+    .box img{
+        height: 40px;
+        padding: 0px;
+        margin: 10px;
+    }
+    .container2{
+        justify-content: center;
+    }
+    main{
+        height: 120vh;
+    }
+}
